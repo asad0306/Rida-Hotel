@@ -7,6 +7,7 @@
     <title>Rida Hotel</title>
 </head>
 <body>
+    <canvas id="canvas"></canvas>
 <nav id="navbar">
 <header>RIDA HOTEL</header>
 
@@ -18,10 +19,17 @@
 
 
 </nav>
+
 <div>
     <img src="/home/asad/The_odin_Projects/Qais-2021/Rida/Rida-Hotel/images/rida 2.png" alt="hotelview">
     <img src="/home/asad/The_odin_Projects/Qais-2021/Rida/Rida-Hotel/images/rida.png" alt="hotelview">
 <script>
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+
+ctx.fillStyle = 'green';
+ctx.fillRect(10, 10, 150, 100);
+
     let admin, name;
         name = "Rida"
         admin = name;
@@ -36,7 +44,6 @@
     let a = 21;
     let b = 4;
     let c = a % b;
-    document.getElementByClass("nav-link").innerHTML = x;
 </script>
 </div>
 </body>
