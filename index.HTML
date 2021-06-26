@@ -21,22 +21,7 @@
 </nav>
 <button>Start machine</button>
 <p>The machine is stopped.</p>
-<script>
-    const btn = document.querySelector('button');
-    const txt = document.querySelector('p');
 
-    btn.addEventListener('click', updateBtn);   
-
-function updateBtn() {
-  if (btn.textContent === 'Start machine') {
-    btn.textContent = 'Stop machine';
-    txt.textContent = 'The machine has started!';
-  } else {
-    btn.textContent = 'Start machine';
-    txt.textContent = 'The machine is stopped.';
-  }
-}
-</script>
 <div>
     <img src="/home/asad/The_odin_Projects/Qais-2021/Rida/Rida-Hotel/images/rida 2.png" alt="hotelview">
     <img src="/home/asad/The_odin_Projects/Qais-2021/Rida/Rida-Hotel/images/rida.png" alt="hotelview">
@@ -61,6 +46,21 @@ ctx.fillRect(10, 10, 150, 100);
     let a = 21;
     let b = 4;
     let c = a % b;
+
+    const btn = document.querySelector('button');
+const txt = document.querySelector('p');
+
+btn.addEventListener('click', updateBtn);
+
+function updateBtn() {
+  if (btn.textContent === 'Start machine') {
+    btn.textContent = 'Stop machine';
+    txt.textContent = 'The machine has started!';
+  } else {
+    btn.textContent = 'Start machine';
+    txt.textContent = 'The machine is stopped.';
+  }
+}
 </script>
 </div>
 </body>
