@@ -7,7 +7,6 @@
     <title>Rida Hotel</title>
 </head>
 <body>
-    <canvas id="canvas"></canvas>
 <nav id="navbar">
 <header>RIDA HOTEL</header>
 
@@ -18,50 +17,9 @@
 <a class="nav-link" href="contact">Contact Us</a>
 
 
-</nav>
-<button>Start machine</button>
-<p>The machine is stopped.</p>
-
 <div>
     <img src="/home/asad/The_odin_Projects/Qais-2021/Rida/Rida-Hotel/images/rida 2.png" alt="hotelview">
     <img src="/home/asad/The_odin_Projects/Qais-2021/Rida/Rida-Hotel/images/rida.png" alt="hotelview">
-<script>
-const canvas = document.getElementById('canvas');
-const ctx = canvas.getContext('2d');
-
-ctx.fillStyle = 'green';
-ctx.fillRect(10, 10, 150, 100);
-
-    let admin, name;
-        name = "Rida"
-        admin = name;
-        alert (admin);
-
-    let ourPlanetName = "Earth";
-    let currentUserName = "John";
-
-    const BIRTHDAY = "18.04.1982";
-    const AGE = "32";
-    let x = 150 + 250;
-    let a = 21;
-    let b = 4;
-    let c = a % b;
-
-    const btn = document.querySelector('button');
-const txt = document.querySelector('p');
-
-btn.addEventListener('click', updateBtn);
-
-function updateBtn() {
-  if (btn.textContent === 'Start machine') {
-    btn.textContent = 'Stop machine';
-    txt.textContent = 'The machine has started!';
-  } else {
-    btn.textContent = 'Start machine';
-    txt.textContent = 'The machine is stopped.';
-  }
-}
-</script>
 </div>
 </body>
 </html>
