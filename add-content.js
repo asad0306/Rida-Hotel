@@ -19,3 +19,28 @@ document.write('<h1>' + greeting + '<h1>')
 
 let isGreater = 4 > 1;
 console.log(isGreater);
+
+const max = 57;
+    const actual = max - 13;
+    const percentage  = actual / 3;
+
+    console.log(percentage);
+
+
+typeof undefined;
+
+typeof 0;
+
+typeof 10n;
+
+typeof true;
+
+typeof "foo";
+
+typeof Symbol ("id");
+
+typeof Math;
+
+typeof null;
+
+typeof alert;
