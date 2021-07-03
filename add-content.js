@@ -27,20 +27,3 @@ const max = 57;
     console.log(percentage);
 
 
-typeof undefined;
-
-typeof 0;
-
-typeof 10n;
-
-typeof true;
-
-typeof "foo";
-
-typeof Symbol ("id");
-
-typeof Math;
-
-typeof null;
-
-typeof alert;
