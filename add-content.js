@@ -16,3 +16,6 @@ else (
 )
 
 document.write('<h1>' + greeting + '<h1>')
+
+let isGreater = 4 > 1;
+console.log(isGreater);
