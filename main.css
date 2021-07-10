@@ -5,6 +5,8 @@ body {
     font-family: 'Karla', sans-serif;
 }
 
+* {box-sizing:border-box}
+
 #navbar {
     position: fixed;
     width: 15%;
@@ -38,11 +40,9 @@ body {
 .slideshow-container {
     max-width: 1000px;
     position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin: auto;
 }
+
 
 /* Next & previous buttons */
 
