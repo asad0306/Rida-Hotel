@@ -157,8 +157,5 @@ h1 {
 
 .rooms {
     width: 300px;
-    height: auto;
     border: solid 2px red;
-    border-radius: 50%;
-
 }
