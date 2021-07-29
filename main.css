@@ -158,4 +158,7 @@ h1 {
 .rooms {
     width: 300px;
     border: solid 2px rgb(132, 194, 168);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
 }
